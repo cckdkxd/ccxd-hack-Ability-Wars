@@ -1,0 +1,24 @@
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("CCXD HACK", "DarkTheme")
+
+local Tab = Window:NewTab("GOD")
+local Section = Tab:NewSection("GOD MOD")
+
+Section:NewButton("GOD MOD อมตะ", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-20.580616, 19.0385971, 3.93979406, -0.886329532, -9.50523358e-08, 0.463055074, -1.01544465e-07, 1, 1.09068683e-08, -0.463055074, -3.73536011e-08, -0.886329532)
+end)
+
+Section:NewSlider("speed วิ่ง", "SliderInfo", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+local Window = Library.CreateLib("เครดิต CCKDKDXDx2", colors)
+local Tab = Window:NewTab("กด X")
+Section:NewButton("เอาคีย์ปลดล็อกหมัดพระเจ้า", "ButtonInfo", function()
+ loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Jump.txt"))()
+end)
+
+Section:NewButton("FLY บิน", "ButtonInfo", function()
+loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Fly.txt"))()
+end)
